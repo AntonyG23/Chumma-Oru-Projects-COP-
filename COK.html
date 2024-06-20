@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Chumma Oru Kalli (COK)</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+      }
+
+      table {
+        border-collapse: collapse;
+        margin: 20px auto;
+      }
+
+      th,
+      td {
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: left;
+      }
+
+      .group-table {
+        display: inline-block;
+        margin: 20px;
+      }
+
+      .result {
+        font-size: 24px;
+        font-weight: bold;
+        margin-top: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Chumma Oru Kalli (COK)</h1>
+    <h2>Made by Antony Giegy</h2>
+    <p>Guess a number between 1 to 31 and select the group which has your number.</p>
+    <form>
+      <div class="group-table">
+        <table id="group-1">
+          <tr>
+            <th>Group 1</th>
+          </tr>
+          <tr>
+            <td>1</td>
+          </tr>
+          <tr>
+            <td>3</td>
+          </tr>
+          <tr>
+            <td>5</td>
+          </tr>
+          <tr>
+            <td>7</td>
+          </tr>
+          <tr>
+            <td>9</td>
+          </tr>
+          <tr>
+            <td>11</td>
+          </tr>
+          <tr>
+            <td>13</td>
+          </tr>
+          <tr>
+            <td>15</td>
+          </tr>
+          <tr>
+            <td>17</td>
+          </tr>
+          <tr>
+            <td>19</td>
+          </tr>
+          <tr>
+            <td>21</td>
+          </tr>
+          <tr>
+            <td>23</td>
+          </tr>
+          <tr>
+            <td>25</td>
+          </tr>
+          <tr>
+            <td>27</td>
+          </tr>
+          <tr>
+            <td>29</td>
+          </tr>
+          <tr>
+            <td>31</td>
+          </tr>
+        </table>
+        <input type="checkbox" id="group-1-checkbox" value="1">
+        <label for="group-1-checkbox">Select Group 1</label>
+      </div>
+      <div class="group-table">
+        <table id="group-2">
+          <tr>
+            <th>Group 2</th>
+          </tr>
+          <tr>
+            <td>2</td>
+          </tr>
+          <tr>
+            <td>3</td>
+          </tr>
+          <tr>
+            <td>6</td>
+          </tr>
+          <tr>
+            <td>7</td>
+          </tr>
+          <tr>
+            <td>10</td>
+          </tr>
+          <tr>
+            <td>11</td>
+          </tr>
+          <tr>
+            <td>14</td>
+          </tr>
+          <tr>
+            <td>15</td>
+          </tr>
+          <tr>
+            <td>18</td>
+          </tr>
+          <tr>
+            <td>19</td>
+          </tr>
+          <tr>
+            <td>22</td>
+          </tr>
+          <tr>
+            <td>23</td>
+          </tr>
+          <tr>
+            <td>26</td>
+          </tr>
+          <tr>
+            <td>27</td>
+          </tr>
+          <tr>
+            <td>30</td>
+          </tr>
+          <tr>
+            <td>31</td>
+          </tr>
+        </table>
+        <input type="checkbox" id="group-2-checkbox" value="2">
+        <label for="group-2-checkbox">Select Group 2</label>
+      </div>
+      <div class="group-table">
+        <table id="group-3">
+          <tr>
+            <th>Group 3</th>
+          </tr>
+          <tr>
+            <td>4</td>
+          </tr>
+          <tr>
+            <td>5</td>
+          </tr>
+          <tr>
+            <td>6</td>
+          </tr>
+          <tr>
+            <td>7</td>
+          </tr>
+          <tr>
+            <td>12</td>
+          </tr>
+          <tr>
+            <td>13</td>
+          </tr>
+          <tr>
+            <td>14</td>
+          </tr>
+          <tr>
+            <td>15</td>
+          </tr>
+          <tr>
+            <td>20</td>
+          </tr>
+          <tr>
+            <td>21</td>
+          </tr>
+          <tr>
+            <td>22</td>
+          </tr>
+          <tr>
+            <td>23</td>
+          </tr>
+          <tr>
+            <td>28</td>
+          </tr>
+          <tr>
+            <td>29</td>
+          </tr>
+          <tr>
+            <td>30</td>
+          </tr>
+          <tr>
+            <td>31</td>
+          </tr>
+        </table>
+        <input type="checkbox" id="group-3-checkbox" value="4">
+        <label for="group-3-checkbox">Select Group 3</label>
+      </div>
+      <div class="group-table">
+        <table id="group-4">
+          <tr>
+            <th>Group 4</th>
+          </tr>
+          <tr>
+            <td>8</td>
+          </tr>
+          <tr>
+            <td>9</td>
+          </tr>
+          <tr>
+            <td>10</td>
+          </tr>
+          <tr>
+            <td>11</td>
+          </tr>
+          <tr>
+            <td>12</td>
+          </tr>
+          <tr>
+            <td>13</td>
+          </tr>
+          <tr>
+            <td>14</td>
+          </tr>
+          <tr>
+            <td>15</td>
+          </tr>
+          <tr>
+            <td>24</td>
+          </tr>
+          <tr>
+            <td>25</td>
+          </tr>
+          <tr>
+            <td>26</td>
+          </tr>
+          <tr>
+            <td>27</td>
+          </tr>
+          <tr>
+            <td>28</td>
+          </tr>
+          <tr>
+            <td>29</td>
+          </tr>
+          <tr>
+            <td>30</td>
+          </tr>
+          <tr>
+            <td>31</td>
+          </tr>
+        </table>
+        <input type="checkbox" id="group-4-checkbox" value="8">
+        <label for="group-4-checkbox">Select Group 4</label>
+      </div>
+      <div class="group-table">
+        <table id="group-5">
+          <tr>
+            <th>Group 5</th>
+          </tr>
+          <tr>
+            <td>16</td>
+          </tr>
+          <tr>
+            <td>17</td>
+          </tr>
+          <tr>
+            <td>18</td>
+          </tr>
+          <tr>
+            <td>19</td>
+          </tr>
+          <tr>
+            <td>20</td>
+          </tr>
+          <tr>
+            <td>21</td>
+          </tr>
+          <tr>
+            <td>22</td>
+          </tr>
+          <tr>
+            <td>23</td>
+          </tr>
+          <tr>
+            <td>24</td>
+          </tr>
+          <tr>
+            <td>25</td>
+          </tr>
+          <tr>
+            <td>26</td>
+          </tr>
+          <tr>
+            <td>27</td>
+          </tr>
+          <tr>
+            <td>28</td>
+          </tr>
+          <tr>
+            <td>29</td>
+          </tr>
+          <tr>
+            <td>30</td>
+          </tr>
+          <tr>
+            <td>31</td>
+          </tr>
+        </table>
+        <input type="checkbox" id="group-5-checkbox" value="16">
+        <label for="group-5-checkbox">Select Group 5</label>
+      </div>
+      <button type="submit">And your number is</button>
+      <p class="result" id="result"></p>
+    </form>
+    <script>
+      const form = document.querySelector('form');
+      const resultElement = document.querySelector('#result');
+      form.addEventListener('submit', (e) => {
+        e.preventDefault();
+        const selectedGroups = [];
+        const checkboxes = document.querySelectorAll('input[type="checkbox"]');
+        checkboxes.forEach((checkbox) => {
+          if (checkbox.checked) {
+            selectedGroups.push(parseInt(checkbox.value));
+          }
+        });
+        const sum = selectedGroups.reduce((acc, current) => acc + current, 0);
+        resultElement.textContent = `The number you have guessed is: ${sum}`;
+      });
+    </script>
+  </body>
+</html>
